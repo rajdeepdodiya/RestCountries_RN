@@ -53,12 +53,13 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         margin: 10,
-        borderBottomColor: 'black',
+        borderBottomColor: 'grey',
         borderBottomWidth: 1,
+        marginTop: 5,
     },
 
     flag: {
-        flex: 0.3,
+        flex: 0.4,
         justifyContent: 'center',
         alignItems: "center",
         width: 100,
@@ -66,7 +67,7 @@ const styles = StyleSheet.create({
 
     },
     countryInfo: {
-        flex: 0.7,
+        flex: 0.6,
         justifyContent: 'center',
         alignItems: 'flex-start',
         paddingHorizontal: 10,

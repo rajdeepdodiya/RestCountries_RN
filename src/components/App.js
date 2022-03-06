@@ -52,8 +52,6 @@ class App extends Component {
         if(this.state.countriesList.length > 0){
             return (
                 <SafeAreaView style={styles.container}>
-                    <Text>{this.state.message}</Text>
-
                     <FlatList style={styles.list}
                     data={this.state.countriesList}
                     renderItem={ ({item}) =>
