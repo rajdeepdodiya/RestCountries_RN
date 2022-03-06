@@ -6,18 +6,18 @@ Technologies Used: React Native CLI, Visual Studio Code
 Language: JavaScript (ES 6)  
 REST endpoint: https://restcountries.com/v2/all  
 
-Screenshots:
+Screen Recording:
 
 
 <div align="left">
-    <img src="/screenshots/1.png" width="200px"></img>
+    <img src="/screenshots/android.gif" width="200px"></img>
 </div>  
 
 <div align="left">
-    <img src="/screenshots/2.png" width="200px"></img>
+    <img src="/screenshots/iphone.gif" width="200px"></img>
 </div>  
 
 <div align="left">
-    <img src="/screenshots/3.png" width="200px"></img>
+    <img src="/screenshots/ipad.gif" width="200px"></img>
 </div>  
 
