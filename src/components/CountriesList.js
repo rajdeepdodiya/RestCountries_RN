@@ -41,7 +41,6 @@ class CountriesList extends Component {
                     />
                 </View>
                 
-                {/* <Text style={styles.blankLine}>-------------</Text> */}
             </View>
         );
     }
