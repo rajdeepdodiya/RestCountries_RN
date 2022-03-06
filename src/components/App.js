@@ -18,7 +18,7 @@ class App extends Component {
         for(let i = 0; i < this.state.countriesList.length; i++){
 
             if(this.state.countriesList[i].flags.png === undefined){
-                console.log(this.state.countriesList[i].name);
+                // console.log(this.state.countriesList[i].name);
                  k++;
             }
         }
@@ -28,8 +28,7 @@ class App extends Component {
 
     async componentDidMount() {
         const countriesListFromAPI = await ajax.fetchCountries();
-        // console.log(countriesListFromAPI);
-        console.log(`#1: countriesList: ${this.state.countriesList.length}`);
+        // console.log(`#1: countriesList: ${this.state.countriesList.length}`);
        
         if(countriesListFromAPI.length > 0){
             this.setState({
